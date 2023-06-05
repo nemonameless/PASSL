@@ -1,9 +1,8 @@
-# Copyright (c) 2022 PaddlePaddle Authors. All Rights Reserved.
+# Copyright (c) 2023 PaddlePaddle Authors. All Rights Reserved.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
-#
 #     http://www.apache.org/licenses/LICENSE-2.0
 #
 # Unless required by applicable law or agreed to in writing, software
@@ -12,13 +11,4 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from passl import core as core
-from passl import data as data
-from passl import loss as loss
-from passl import metric as metric
-from passl import models as models
-from passl import nn as nn
-from passl import optimizer as optimizer
-from passl import scheduler as scheduler
-from passl import utils as utils
-from passl import distributed as distributed
+from .dino_vit import *
